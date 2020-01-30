@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block title %}V-School - Profile{{ current_user.first_name }}{% endblock %}
+
+{% block page_content %}
+
+<div class="container">
+<div class="jumbotron">
+  <div align='center'>
+    <h2>{{ user.user_name }}</h2>
+    <p>{{ user.email }}</p>
+    <img align='center' src="{{ url_for('static', filename='profile_pics/' + user.user_contacts.profile_image) }}">
+    {% if user.user_role.return_role() == 'Student' %}
+      <h3>Student at {{ user.student.student_class.name }}</h3>
+    {% elif user.user_role.return_role() == 'Parent' %}
+      <h3>Parent of <a href="{{ url_for('main.profile', user_name=user.parent.return_student_user_name()) }}">
+        {{ user.parent.return_student_user_name()}}</a></h3>
+    {% else %}
+      <h3>{{ user.user_role.return_role() }}</h3>
+    {% endif %}
+
+    {% if current_user.is_administrator() %}
+            <a class="btn btn-danger" href="{{ url_for('control_room.edit_profile_for_other_user',
+             user_name=user.user_name) }}">Edit Profile [Admin]</a>
+    {% endif %}
+  </div>
+</div>
+</div>
+
+<div class="container">
+{% for post in posts %}
+<ul class="posts">
+    <li class="post">
+        <div class="post-thumbnail">
+            <a href="{{ url_for('main.profile', user_name=post.return_user_name())}}">
+                <img class="img-rounded profile-thumbnail"
+                     src="{{ url_for('static', filename='profile_pics/' +'s-'+ post.author.user_contacts.profile_image) }}">
+            </a>
+        </div>
+        <div class="post-content">
+            <div class="post-date">{{ post.timestamp.strftime('%Y-%m-%d') }}</div>
+            <div class="post-author"><a href="{{ url_for('main.profile', user_name=post.return_user_name())}}">
+                                        {{ post.return_user_name()}}</a></div>
+            <div class="post-body">
+                <p>{{post.body}}</p>
+            </div>
+        </div>
+        <a class="align-right" href="{{ url_for('main.post', id=post.id) }}">Comments</a>
+    </li>
+</ul>
+{% endfor %}
+</div>
+
+{% from '_macros.html' import pagination_widget with context %}
+{% if pagination %}
+<div class="pagination">
+    {{ pagination_widget(pagination, 'main.new_feeds') }}
+</div>
+{% endif %}
+
+{% endblock %}

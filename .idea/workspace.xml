@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6d406cb-22a8-4788-946b-fba86b805758" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="School-App" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vn6HUlcy9KqOywy9coj7g3oUij" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv_app" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="School-App" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="School-App" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\templates" />
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\auth" />
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\ControlRoom" />
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\Main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.school_app">
+    <configuration name="School-App" type="PythonConfigurationType" factoryName="Python">
+      <module name="School-App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="FLASK_APP" value="app.py" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Lib/site-packages/flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="School-App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="school_app" type="PythonConfigurationType" factoryName="Python">
+      <module name="School-App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/school_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6d406cb-22a8-4788-946b-fba86b805758" name="Default Changelist" comment="" />
+      <created>1577876423371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577876423371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="0" key="#Inspections" timestamp="1578314322766">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="175" y="0" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1578314322766" />
+    <state x="175" y="0" key="#Scopes" timestamp="1579704286803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="175" y="0" key="#Scopes/0.0.1366.738@0.0.1366.738" timestamp="1579704286803" />
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578593230669">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577971508580" />
+    <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1578593230669" />
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578494346515">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1578494346515" />
+    <state x="356" y="72" key="EnvironmentVariablesDialog" timestamp="1577886075161">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="356" y="72" key="EnvironmentVariablesDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577886075161" />
+    <state x="370" y="84" key="FileChooserDialogImpl" timestamp="1580316761272">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889068679" />
+    <state x="370" y="84" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580316761272" />
+    <state width="1339" height="212" key="GridCell.Tab.0.bottom" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
+    <state width="1339" height="212" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.0.center" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
+    <state width="1339" height="212" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.0.left" timestamp="1580316753054">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
+    <state width="1339" height="212" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580316753054" />
+    <state width="1339" height="212" key="GridCell.Tab.0.right" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="170" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
+    <state width="1339" height="212" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.1.bottom" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="212" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.1.center" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="212" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.1.left" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="212" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state width="1339" height="212" key="GridCell.Tab.1.right" timestamp="1580316753055">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1339" height="212" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
+    <state x="75" y="0" key="SettingsEditor" timestamp="1579788383002">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="75" y="0" key="SettingsEditor/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579788383002" />
+    <state x="75" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1578061331316" />
+    <state x="75" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1578593883383" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1580133976895">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1580133976895" />
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1579788420541">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579788420541" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1580384557637">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1580303429188" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579517861654" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580384557637" />
+    <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580384578677">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1580384578677" />
+    <state x="0" y="0" width="731" height="738" key="find.popup" timestamp="1580152566311">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1580152566311" />
+    <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579173271411" />
+    <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1578914484163" />
+    <state x="262" y="-1" width="840" height="934" key="search.everywhere.popup" timestamp="1579874207394">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="262" y="-1" width="840" height="934" key="search.everywhere.popup/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579874207394" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579520401528" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1578579025744" />
+  </component>
+</project>

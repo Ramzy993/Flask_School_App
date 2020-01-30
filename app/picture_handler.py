@@ -1,0 +1,30 @@
+import os
+# pip install pillow
+from PIL import Image
+
+from flask import current_app
+
+
+def add_profile_pic(pic_upload, username):
+    filename = pic_upload.filename
+    # Grab extension type .jpg or .png
+    ext_type = filename.split('.')[-1]
+    storage_filename = str(username) + '.' + ext_type
+
+    filepath = os.path.join(current_app.root_path, 'static\profile_pics', storage_filename)
+    small_filepath = os.path.join(current_app.root_path, 'static\profile_pics', 's-'+storage_filename)
+
+    # Play Around with this size.
+    output_size = (200, 200)
+    small_output_size = (30, 30)
+
+    # Open the picture and save it
+    pic = Image.open(pic_upload)
+    pic.thumbnail(output_size)
+    pic.save(filepath)
+
+    pic = Image.open(pic_upload)
+    pic.thumbnail(small_output_size)
+    pic.save(small_filepath)
+
+    return storage_filename
