@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6d406cb-22a8-4788-946b-fba86b805758" name="Default Changelist" comment="" />
+    <list default="true" id="e6d406cb-22a8-4788-946b-fba86b805758" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-test.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject.egg-info/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject.egg-info/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject.egg-info/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject.egg-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_app/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv_app/Lib/site-packages/myproject.egg-link" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,22 +27,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1Vn6HUlcy9KqOywy9coj7g3oUij" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/venv_app" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -39,17 +62,17 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\main" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\templates" />
       <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\auth" />
       <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\ControlRoom" />
       <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\Main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Youssef.Ramzy\OneDrive - FLAIRSTECH\1- Tasks\Task 3 - Flask\School-App\app\main" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.school_app">
+  <component name="RunManager" selected="Python.test_user_model">
     <configuration name="School-App" type="PythonConfigurationType" factoryName="Python">
       <module name="School-App" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,8 +137,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_user_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="School-App" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_user_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_user_model" />
         <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
@@ -145,6 +190,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Inspections" timestamp="1578314322766">
       <screen x="0" y="0" width="1366" height="738" />
@@ -159,10 +207,14 @@
     </state>
     <state x="137" y="0" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577971508580" />
     <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1578593230669" />
-    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578494346515">
+    <state x="444" y="17" key="#com.intellij.ide.util.MemberChooser" timestamp="1580823108788">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1578494346515" />
+    <state x="444" y="17" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1580823108788" />
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1580823120127">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="89" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1580823120127" />
     <state x="356" y="72" key="EnvironmentVariablesDialog" timestamp="1577886075161">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -172,48 +224,52 @@
     </state>
     <state x="413" y="62" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889068679" />
     <state x="370" y="84" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1580316761272" />
-    <state width="1339" height="212" key="GridCell.Tab.0.bottom" timestamp="1580316753055">
+    <state x="175" y="0" key="GrepConsoleSettings" timestamp="1580824197183">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="175" y="0" key="GrepConsoleSettings/0.0.1366.738@0.0.1366.738" timestamp="1580824197183" />
+    <state width="1339" height="185" key="GridCell.Tab.0.bottom" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1339" height="170" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
-    <state width="1339" height="212" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.0.center" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.0.center" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1339" height="170" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
-    <state width="1339" height="212" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.0.left" timestamp="1580316753054">
+    <state width="1339" height="185" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.0.left" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1339" height="170" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
-    <state width="1339" height="212" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580316753054" />
-    <state width="1339" height="212" key="GridCell.Tab.0.right" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.0.right" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1339" height="170" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1577889070686" />
-    <state width="1339" height="212" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.1.bottom" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.1.bottom" timestamp="1580824623159">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1339" height="212" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.1.center" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580824623159" />
+    <state width="1339" height="185" key="GridCell.Tab.1.center" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1339" height="212" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.1.left" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.1.left" timestamp="1580824623158">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1339" height="212" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state width="1339" height="212" key="GridCell.Tab.1.right" timestamp="1580316753055">
+    <state width="1339" height="185" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1580824623158" />
+    <state width="1339" height="185" key="GridCell.Tab.1.right" timestamp="1580824623159">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1339" height="212" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580316753055" />
-    <state x="75" y="0" key="SettingsEditor" timestamp="1579788383002">
+    <state width="1339" height="185" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1580824623159" />
+    <state x="75" y="0" width="1141" height="738" key="SettingsEditor" timestamp="1580824890719">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="75" y="0" key="SettingsEditor/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579788383002" />
     <state x="75" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1578061331316" />
-    <state x="75" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1578593883383" />
+    <state x="75" y="0" width="1141" height="738" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1580824890719" />
     <state width="623" height="498" key="SwitcherDM" timestamp="1580133976895">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -222,27 +278,35 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579788420541" />
-    <state x="314" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1580384557637">
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog" timestamp="1580824836861">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1580303429188" />
     <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579517861654" />
-    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580384557637" />
+    <state x="314" y="145" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1580824836861" />
     <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580384578677">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="440" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1580384578677" />
+    <state x="462" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580824911338">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="266" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1580824911338" />
     <state x="0" y="0" width="731" height="738" key="find.popup" timestamp="1580152566311">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1580152566311" />
     <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579173271411" />
     <state x="0" y="0" width="731" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1578914484163" />
-    <state x="262" y="-1" width="840" height="934" key="search.everywhere.popup" timestamp="1579874207394">
+    <state x="277" y="185" width="865" height="368" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580824856452">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="277" y="185" width="865" height="368" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1580824856452" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1580823201735">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="262" y="-1" width="840" height="934" key="search.everywhere.popup/0.0.1366.738/-1920.-304.1920.1050@0.0.1366.738" timestamp="1579874207394" />
     <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738/1366.0.1920.1050@0.0.1366.738" timestamp="1579520401528" />
-    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1578579025744" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1580823201735" />
   </component>
 </project>
