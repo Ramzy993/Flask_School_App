@@ -1,4 +1,4 @@
-from ..decorators import admin_required, student_required, teacher_required, parent_required, management_required
+from ..decorators import admin_required
 from flask_login import login_required, current_user
 from flask import render_template, flash, redirect, url_for
 from . import control_room_blueprint

@@ -46,6 +46,9 @@ def create_app(config_name):
     from .control_room import control_room_blueprint
     app.register_blueprint(control_room_blueprint)
 
+    from .api import api
+    app.register_blueprint(api)
+
     return app
 
 

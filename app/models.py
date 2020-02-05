@@ -116,6 +116,18 @@ class User(db.Model, UserMixin):
     def is_administrator(self):
         return self.can(sum(Permission.roles['Administrator']))
 
+    def generate_auth_tokken(self, expiration=3600):
+        s = Serializer(current_app.congig['SECRET_KEY'], expires_in=expiration)
+        return s.dumps({'id': self.id, }).decode('utf-8')
+
+    def verify_user_token(self, token):
+        s = Serializer(current_app.congig['SECRET_KEY'])
+        try:
+            data = s.loads(token)
+        except:
+            return None
+        return User.query.get(data['id'])
+
 
 class AnonymousUser(AnonymousUserMixin):
     def can(self, perm):
@@ -232,7 +244,7 @@ class Student(db.Model):
 
     student_courses = db.relationship('Student_Course', backref='student', lazy='dynamic')
 
-    def __init__(self, first_name, middle_name, last_name, gender,  religion, date_of_birth, student_class):
+    def __init__(self, first_name, middle_name, last_name, gender, religion, date_of_birth, student_class):
         self.first_name = first_name
         self.middle_name = middle_name
         self.last_name = last_name
