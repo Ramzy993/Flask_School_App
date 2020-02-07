@@ -120,14 +120,6 @@ class User(db.Model, UserMixin):
         s = Serializer(current_app.congig['SECRET_KEY'], expires_in=expiration)
         return s.dumps({'id': self.id, }).decode('utf-8')
 
-    def verify_user_token(self, token):
-        s = Serializer(current_app.congig['SECRET_KEY'])
-        try:
-            data = s.loads(token)
-        except:
-            return None
-        return User.query.get(data['id'])
-
 
 class AnonymousUser(AnonymousUserMixin):
     def can(self, perm):
@@ -314,23 +306,26 @@ class Course(db.Model):
     __tabelname__ = 'courses'
 
     id = db.Column(db.Integer, primary_key=True)
-    assigned_teacher_id = db.Column(db.Integer, db.ForeignKey('staff.id'), nullable=False)
     name = db.Column(db.String(64), nullable=False, index=True)
-    abbreviation = db.Column(db.String(32), nullable=False)
+    abbreviation = db.Column(db.String(32), nullable=False, unique=True)
     max_score = db.Column(db.Integer)
     success_score = db.Column(db.Integer)
 
-    added_by = db.Column(db.String(32), nullable=False)
-    edited_by = db.Column(db.String(32), nullable=False)
+    course_teacher = db.Column(db.String(64))
+
+    added_by = db.Column(db.String(32))
+    edited_by = db.Column(db.String(32))
 
     student_courses = db.relationship('Student_Course', backref='course')
 
-    def __init__(self, name, abbreviation, max_score, success_score):
+    def __init__(self, name, abbreviation, max_score, success_score, course_teacher, added_by, edited_by):
         self.name = name
         self.abbreviation = abbreviation
         self.max_score = max_score
         self.success_score = success_score
-
+        self.course_teacher = course_teacher
+        self.added_by = added_by
+        self.edited_by = edited_by
 
 class Student_Course(db.Model):
     __tabelname__ = 'students_courses'

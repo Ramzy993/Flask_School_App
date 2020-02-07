@@ -27,13 +27,24 @@
                 {% if current_user.can(Permission.VIEW_NEWS_FEED) %}
                     <li><a href="{{ url_for('main.new_feeds') }}">News feed</a></li>
                 {% endif %}
+                {% if current_user.can(Permission.VIEW_COURSES) %}
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="{{ url_for('courses.view_courses') }}">View</a>
+                            {% if current_user.can(Permission.EDIT_COURSES) %}
+                                <a class="dropdown-item" href="{{ url_for('courses.edit_courses', edit_course_id=0) }}">Edit</a>
+                            {% endif %}
+                        </div>
+                    </li>
+                {% endif %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_authenticated %}
                 <li class="nav-item dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         <img src="{{ url_for('static', filename='profile_pics/' + 's-' +current_user.user_contacts.profile_image) }}">
-                        Profile<b class="caret"></b></a>
+                        Profile</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="{{ url_for('main.profile', user_name=current_user.user_name) }}">View</a>
                         <a class="dropdown-item" href="{{ url_for('main.edit_profile') }}">Edit</a>

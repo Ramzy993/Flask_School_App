@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+<h2>Hello, {{current_user.user_name}}</h2>
+<h4>Here you can add or edit and existing course.</h4>
+<br>
+
+<div class="col-md-4">
+    {{ wtf.quick_form(form) }}
+<br>
+</div>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Course ID</th>
+      <th scope="col">Course Name</th>
+      <th scope="col">Course Abbreviation</th>
+      <th scope="col">Success Score</th>
+      <th scope="col">Maximum Score</th>
+      <th scope="col">Teacher</th>
+      <th scope="col">Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for course in courses %}
+    <tr>
+      <th scope="row">{{course.id}}</th>
+      <td>{{course.name}}</td>
+      <td>{{course.abbreviation}}</td>
+      <td>{{course.success_score}}</td>
+      <td>{{course.max_score}}</td>
+      <td><a href="{{ url_for('main.profile', user_name=course.course_teacher)}}">{{course.course_teacher}}</a></td>
+      <td><a href="{{ url_for('courses.edit_courses', edit_course_id=course.id) }}">Edit</a></td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
+
+
+
+

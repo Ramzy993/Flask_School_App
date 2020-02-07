@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+<h2>Hello, {{current_user.user_name}}</h2>
+<h4>This is all the available courses.</h4>
+<br>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Course ID</th>
+      <th scope="col">Course Name</th>
+      <th scope="col">Course Abbreviation</th>
+      <th scope="col">Success Score</th>
+      <th scope="col">Maximum Score</th>
+      <th scope="col">Teacher</th>
+      {% if current_user.is_administrator() %}
+        <th scope="col">Added By</th>
+        <th scope="col">Edited By</th>
+      {% endif %}
+    </tr>
+  </thead>
+  <tbody>
+  {% for course in courses %}
+    <tr>
+      <th scope="row">{{course.id}}</th>
+      <td>{{course.name}}</td>
+      <td>{{course.abbreviation}}</td>
+      <td>{{course.success_score}}</td>
+      <td>{{course.max_score}}</td>
+      <td><a href="{{ url_for('main.profile', user_name=course.course_teacher)}}">{{course.course_teacher}}</a></td>
+      {% if current_user.is_administrator() %}
+        <th scope="col">{{course.added_by}}</th>
+        <th scope="col">{{course.edited_by}}</th>
+      {% endif %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}
+
+
+
+

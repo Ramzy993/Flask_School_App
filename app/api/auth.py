@@ -12,7 +12,7 @@ def verify_password(email_or_tokken, password):
     if email_or_tokken == '':
         return False
     if password == '':
-        g.current_user = User.verify_user_token(email_or_tokken)
+        g.current_user = verify_user_token()
         g.token_used = True
         return g.current_user is not None
 
